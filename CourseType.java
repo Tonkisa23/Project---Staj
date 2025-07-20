@@ -1,5 +1,7 @@
-package bg.tu_varna.s22621643;
+package bg.tu_varna.s22621643.Model;
 
-public enum CourseType {
+import java.io.Serializable;
+
+public enum CourseType implements Serializable {
     MANDATORY, ELECTIVE
 }
